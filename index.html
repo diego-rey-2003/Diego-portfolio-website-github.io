@@ -22,20 +22,22 @@
     </nav>
     <nav id="hamburger-nav">
       <div class="logo">Diego Rey</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
+      <div class="hamburger-icon champions-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <ul>
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
+        </ul>
       </div>
     </nav>
+gi t    
+    
     <section id="profile">
       <div class="section__pic-container">
         <img src="./assets/profile-pic.png" alt="profile picture" />
@@ -47,7 +49,7 @@
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume-Diego-Rey.pdf')"
+            onclick="location.href= 'http://127.0.0.1:5500/assets/Resume-Diego-Rey.pdf'"
           >
             Resume
           </button>
@@ -60,13 +62,13 @@
             src="./assets/linkedin.png"
             alt="LinkedIn profile"
             class="icon"
-            onclick="location.href='https:www.linkedin.com/in/diego-rey-567979274'"
+            onclick="location.href='https://www.linkedin.com/in/diego-rey-567979274/'"
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https:github.com/diego-rey-2003'"
+            onclick="location.href='https://github.com/diego-rey-2003'"
           />
         </div>
       </div>
