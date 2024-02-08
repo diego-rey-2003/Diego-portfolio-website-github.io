@@ -49,8 +49,14 @@
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="location.href= onclick=window.open('./assets/Resume-Diego-Rey.pdf')"
+            onclick="openInNewTab('./assets/Resume-Diego-Rey.pdf')"
           >
+          <script>
+            function openInNewTab(url) 
+            {
+              window.open(url, '_blank').focus();
+            }
+          </script>
             Resume
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
@@ -390,7 +396,7 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:examplemail@gmail.com">diego.rey2300@gmail.com</a></p>
+          <p>diego.rey2300@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
           <img
@@ -416,6 +422,7 @@
       <p>Copyright &#169; Diego Rey all rights reserved</p>
     </footer>
     <script src="script.js"></script>
+    
   </body>
 </html>
 
